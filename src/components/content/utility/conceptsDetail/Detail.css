@@ -1,0 +1,16 @@
+.panel {
+    width: 290px;
+    float: left;
+    margin-right: 10px;
+}
+.hintText {
+    font-size: 11px;
+    padding-top: 11px;
+}
+.defBody {
+    padding-top: 0!important;
+    border-top: 0!important;
+}
+.checkedStar {
+    color: #eaea17!important;
+}

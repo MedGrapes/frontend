@@ -1,0 +1,28 @@
+.mappingCount {
+    font-size: 11px;
+    margin-top: 5px;
+}
+.mappingCount span {
+    cursor: pointer;
+}
+.mappingCount span:after {
+    content: "|";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mappingCount .expandElement:hover {
+    color: black;
+    text-decoration: underline;
+}
+:global(.list-group-item.active) .mappingCount .expandElement:hover {
+    color: #d8d8d8;
+}
+.mappingCount span:last-of-type:after {
+    content: "";
+}
+.mappingCount ul {
+    padding-left: 25px;
+}
+.mappingCount span.active {
+    text-decoration: underline;
+}
